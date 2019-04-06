@@ -1,0 +1,33 @@
+<% include partials/header.ejs %>
+
+
+<nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                       <img src="https://img.icons8.com/cotton/2x/filled-chat.png" id="icon"><h1>iChat</h1>
+            </div>
+        </div>
+</nav>
+
+
+<section>
+      <div id="change_username">
+	        <input id="username" type="text" value="Anonymous">
+	        <button id="send_username" type="button">Change username</button>
+      </div>
+</section>
+
+    <section id="chatroom">
+      <section id="feedback"></section>
+    </section>
+
+    
+
+    <section id="input_zone"> 
+      <input id="message" class="vertical-align" type="text" >
+      <img  src="http://is1.mzstatic.com/image/thumb/Purple82/v4/4c/69/09/4c690906-23e5-d470-4d52-9e47d246e961/source/350x350bb.png" id="send">
+      <!--<button id="send_message" class="vertical-align btn btn-lg btn-success" type="button">Send</button>-->
+    </section>
+
+<% include partials/footer.ejs %>
+
